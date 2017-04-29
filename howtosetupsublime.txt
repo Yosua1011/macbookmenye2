@@ -1,0 +1,18 @@
+How to setup Sublime Text 3 in Mac:
+1. Download Sublime Text 3 for OSX
+2. Install via this file "Sublime Text Build 3126.dmg"
+3. To open sublime via terminal run this command:
+omit the " "
+
+- Open terminal
+- Run this command "nano ~/.bash_profile"
+- A blank script will showed up
+- Copy this line to that blank script
+"
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export EDITOR='subl -w'
+"
+- Save that script
+- Run this command "source ~/.bash_profile "
+- Run this command "ln -s /Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl"
+- Voila you already have subl command on your terminal
